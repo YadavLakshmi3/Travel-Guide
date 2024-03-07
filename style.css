@@ -1,0 +1,232 @@
+*{
+  box-sizing: border-box;
+}
+
+.index{
+  background-image: url('F:/Frontend/HTML/ProjectImages/travel-background.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+.about{
+  background-image: url('F:/Frontend/HTML/ProjectImages/tra-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.about .bg-design{
+  position: relative;
+  left: 300px;
+  height: 400px;
+  width: 750px;
+  padding: 10px;
+  background-color: rgba(88, 207, 250, 0.3);
+}
+
+.about p:hover{
+  font-style: oblique;
+  transform: scale(1.1, 1.1);
+}
+
+.cat-img{
+  background-image: url('F:/Frontend/HTML/ProjectImages/travel-bg.jpg');
+  background-size: cover;
+  height: 350px;
+}
+
+.index .rName {
+  color: rgb(131, 35, 121);
+  text-shadow: 2px 2px 5px white;
+}
+
+.index .rName:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.cat-img .cName{
+  text-shadow: 2px 2px 5px red;
+}
+.cat-img .cName:hover{
+  transform: scale(0.8, 0.8);
+}
+
+.index .title{
+  color: blue;
+}
+
+.index .custom{
+  position: relative;
+  top: 110px;
+  left: 140px;
+}
+
+.bg-button{
+  background-image: url('F:/Frontend/HTML/ProjectImages/img-button.jpg');
+  box-shadow: 1px 1px 3px pink;
+  height: 55px;
+  width: 240px;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-custom{
+  background-color: rgba(151,99,78,0.4);
+  box-shadow: 5px 5px 15px black;
+  border-radius: 20px;
+}
+
+.cat-img .d-wonder a{
+  text-decoration: none;
+  position: relative;
+  top: 18px;
+  left: 20px;
+  font-size: 28px;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.cat-img .d-trek a{
+  text-decoration: none;
+  position: relative;
+  top: 18px;
+  left: 40px;
+  font-size: 28px;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.cat-img .d-fall a{
+  text-decoration: none;
+  position: relative;
+  top: 18px;
+  left: 60px;
+  font-size: 28px;
+  opacity: 0.9;
+  z-index: 3;
+}
+
+.cat-img .d-safari a{
+  text-decoration: none;
+  position: relative;
+  top: 18px;
+  left: 90px;
+  font-size: 28px;
+  opacity: 0.9;
+  z-index: 4;
+}
+
+.cat-img .d-beach a{
+  text-decoration: none;
+  position: relative;
+  top: 18px;
+  left: 120px;
+  font-size: 28px;
+  opacity: 0.9;
+  z-index: 5;
+}
+
+.cat-img .d-about a{
+  text-decoration: none;
+  position: relative;
+  top: 18px;
+  left: 150px;
+  font-size: 28px;
+  opacity: 0.9;
+  z-index: 5;
+}
+
+.cat-img .bg-design{
+  position: relative;
+  left: 380px;
+  height: 410px;
+  width: 400px;
+  background-color: rgba(241, 231, 31, 0.3);
+}
+
+.cat-img .bg-design i:hover,
+.cat-img .bg-design a:hover{
+  font-style: oblique;
+  transform: scale(1.1, 1.1);
+}
+
+.wond{
+  height: 600px;
+}
+
+.con-bg{
+  background-color: rgba(56, 9, 247, 0.3);
+}
+
+.btn-pos{
+  position: relative;
+  left: 200px;
+}
+
+.row .north-bg{
+  background-color: rgba(54, 4, 93, 0.2);
+}
+
+.pos{
+  position: fixed;
+  overflow-y: auto;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+}
+
+.content{
+  margin-left: 520px;
+}
+
+.content .style{
+  text-align: end;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.format{
+  text-align: justify;
+  text-indent: 80px;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.format1{
+  text-align: justify;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.famous{
+  text-align: justify;
+  font-size: 20px;
+  color: rgb(6, 10, 230);
+}
+
+.content .button{
+  position: fixed;
+  font-size: 20px;
+}
+
+mark{
+  font-style: italic;
+}
+
+.mod{
+  position: relative;
+  margin-left: 300px;
+  margin-top: 0%;
+}
+
+.detail{
+  text-align: justify;
+  font-size: 17px;
+  color: blueviolet;
+}
+
+.logo:hover{
+  transform: scale(1.1, 1.1);
+}
